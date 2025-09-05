@@ -1,0 +1,4 @@
+/.vs
+/dll_injector/x64
+/x64
+dll_injector/dll_injector.vcxproj.user
