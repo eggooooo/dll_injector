@@ -1,5 +1,7 @@
 # dll_injector
 
+### don't use this in any games that don't have a dysfunctional anti cheat, you will get banned. (LoadLibraryW)
+
 ## Usage
 config parsing follows a strict line-by-line order. rearranging params will cause the injector to fail.
 
