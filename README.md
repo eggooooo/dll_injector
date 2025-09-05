@@ -9,9 +9,9 @@ config parsing follows a strict line-by-line order. rearranging params will caus
 inject_wait=2000         ; wait before injecting each DLL (ms)
 init_wait=6000           ; wait after starting the target executable(ms)
 path\to\program.exe      ; target executable
-DLL1.dll                 ; DLLs to inject in line sequence
-DLL2.dll
-DLL3.dll
+path\to\1.dll            ; DLLs to inject in line sequence
+path\to\2.dll
+path\to\3.dll
 ```
 
 ## License
