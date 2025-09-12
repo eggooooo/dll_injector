@@ -102,9 +102,9 @@ int wmain() {
         std::wcerr << L"inject_wait=2000         ; wait before injecting each DLL (ms)" << std::endl;
         std::wcerr << L"init_wait=6000           ; wait after starting the target executable(ms)" << std::endl;
         std::wcerr << L"path\\to\\program.exe      ; target executable" << std::endl;
-        std::wcerr << L"DLL1.dll                 ; DLLs to inject in line sequence" << std::endl;
-		std::wcerr << L"DLL2.dll" << std::endl;
-        std::wcerr << L"DLL3.dll" << std::endl;
+        std::wcerr << L"path\\to\\1.dll         ; DLLs to inject in line sequence" << std::endl;
+		std::wcerr << L"path\\to\\2.dll" << std::endl;
+        std::wcerr << L"path\\to\\3.dll" << std::endl;
         system("pause");
         return 1;
     }
